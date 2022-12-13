@@ -1,4 +1,4 @@
-form Animal import Animal
+from Animal import Animal
 class Penguin(Animal):
     def __init__(self, continent, color, max_speed, food):
         super().__init__(continent, color)

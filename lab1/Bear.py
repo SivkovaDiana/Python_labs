@@ -1,4 +1,4 @@
-form Animal import Animal
+from Animal import Animal
 class Bear(Animal):
     def __init__(self, continent, color, max_speed, life_expectancy):
         super().__init__(continent, color)
