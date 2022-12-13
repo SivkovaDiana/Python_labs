@@ -13,3 +13,5 @@ print(Average[N] == Average)
 rand_numbers = [random.choice(range(N)) for i in range(100)]
 (result["rand_sum"] == sum_(Z, for_each=Z)) <= Z.in_(rand_numbers)
 print(result["rand_sum"] == X)
+
+print("mediana: ", (rand_numbers[49]+rand_numbers[50])/2)
