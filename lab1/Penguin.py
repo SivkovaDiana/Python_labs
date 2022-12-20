@@ -8,8 +8,3 @@ class Penguin(Animal):
         
     def __repr__(self):
         return f'Animal(_name="{self.name}", continent = "{self._continent}", color = "{self._color}", max_speed = {self._max_speed}, food = "{self._food}"'
-   
-if __name__ == "__main__":
-    a_penguin = Penguin(...)
-    print(a_penguin)
-    
